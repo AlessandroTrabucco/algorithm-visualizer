@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
+
+.algorithmPage {
+  background-color: #e2e2fa;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+._container {
+  padding-left: 100px;
+  width: 100%;
+  background-color: #c8c8f6;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  align-items: flex-start;
+}
+
+#reset {
+  margin-left: 30px;
+  width: 140px;
+}
+
+.algorithms {
+  margin-bottom: 20px;
+}
+
+.algorithm {
+  cursor: pointer;
+
+  font-size: 18px !important;
+  width: 200px !important;
+}
+
+.colorPicker {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+._colorPicker {
+  cursor: pointer;
+}
+
+.slider {
+  cursor: pointer !important;
+}
+
+.speed {
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px !important;
+  width: 140px;
+  font-size: 18px !important;
+}
+
+.body {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  background-color: #e2e2fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 20px;
+}
+
+table,
+td {
+  width: 1600px;
+  background-color: white;
+  border-collapse: collapse !important;
+  border: 1px solid #9fbcff !important;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+.finished {
+  background-color: rgb(85, 215, 85) !important;
+  border: 1px solid rgb(94, 94, 94) !important;
+}
+
+td {
+  width: 21.5px !important;
+  height: 24.5px !important;
+}
+
+.startingPoint {
+  background-image: url('../images/start.svg');
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.visited {
+  background-color: #3883e5;
+  border: 1px solid white;
+}
+
+#container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.dragging {
+  background-color: #b387ff !important;
+}
+
+#loading {
+  width: 100%;
+  display: none;
+  font-size: 25px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+#hint {
+  margin-top: 10px;
+  margin-left: 349px;
+  font-size: 23px;
+  display: none;
+}

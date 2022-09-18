@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
+
+.algorithmPage {
+  background-color: #e2e2fa;
+}
+
+.body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  background-color: #e2e2fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrayElement {
+  background: #0000ff;
+  margin-top: 10px;
+  margin-right: 3px;
+  width: 10px;
+}
+
+#app {
+  display: flex;
+  width: 100%;
+}
+
+button {
+  padding: 8px !important;
+  width: 140px;
+  font-size: 18px !important;
+}
+
+._container {
+  padding-left: 100px;
+  width: 100%;
+  background-color: #c8c8f6;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: left;
+  align-items: left;
+}
+
+.speed {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.items {
+  margin-bottom: 20px;
+}
+
+.slider {
+  width: 50% !important;
+  cursor: pointer !important;
+}
+
+.colorPicker {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+._colorPicker {
+  cursor: pointer;
+}
+
+.algorithms {
+  margin-bottom: 20px;
+}
+
+.algorithm {
+  cursor: pointer;
+
+  font-size: 18px !important;
+  width: 200px !important;
+}
+
+#loading {
+  width: 100%;
+  display: none;
+  font-size: 25px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+#create {
+  margin-left: 30px;
+  width: 140px;
+}
