@@ -90,3 +90,8 @@ td {
   font-weight: bold;
   color: white;
 }
+
+._link {
+  display: flex;
+  margin-top: 6px;
+}
